@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AMO SOHIL | Cannabis & Mushroom</title>
+<meta name="description" content="AMO SOHIL؛ مرجع آموزشی و آگاهی‌رسان درباره ماریجوانا و مجیک ماشروم.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+:root{--bg:#030705;--card:#0a120e;--line:#18211c;--green:#46e875;--purple:#9b5cff;--muted:#8c9991;--white:#f5f7f6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}
+a{text-decoration:none;color:inherit}.wrap{width:min(1220px,92%);margin:auto}
+header{height:76px;position:sticky;top:0;z-index:9;background:rgba(3,7,5,.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px}.mark{font-size:28px;color:var(--green)}.brand b{font-size:21px}.brand small{display:block;font-size:8px;color:#8a958f;letter-spacing:2px;line-height:1}
+nav{display:flex;gap:25px;font-size:13px;color:#d6ddd8}nav a:hover{color:var(--green)}
+.tg{border:1px solid var(--green);border-radius:30px;color:var(--green);padding:7px 15px;font-weight:700;font-size:12px}
+
+.hero{min-height:610px;display:flex;align-items:center;text-align:center;position:relative;overflow:hidden;background:#06100b}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,8,5,.08),rgba(3,8,5,.72) 52%,rgba(3,8,5,.2)),url("hero-bg.jpg") center/cover no-repeat;opacity:.78}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg),transparent 35%,rgba(0,0,0,.15));}
+.hero .wrap{position:relative;z-index:1}.eyebrow{display:inline-block;border:1px solid #2e9d50;color:var(--green);padding:4px 14px;border-radius:30px;font-size:12px}
+h1{font-family:Georgia,serif;font-size:70px;letter-spacing:2px;margin:15px 0 0}.hero h1 span{color:#ddd}.hero h2{font-size:24px;margin:4px 0}.hero p{max-width:650px;margin:8px auto;color:#c1cac4;font-size:14px}.actions{display:flex;justify-content:center;gap:10px;margin-top:22px}.btn{padding:10px 23px;border-radius:28px;border:1px solid var(--green);background:var(--green);color:#061008;font-weight:800;font-size:13px}.btn.alt{background:transparent;color:white;border-color:#28312c}
+
+section{padding:54px 0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:var(--card);border:1px solid #202a24;border-radius:18px;overflow:hidden;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#31533d}.visual{height:150px;display:grid;place-items:center;font-size:55px}.purple{background:#170e20}.green{background:#07190e}.blue{background:#071521}.orange{background:#1b0d07}.body{padding:18px 20px}.body h3{margin:0 0 7px;font-size:17px}.body p{margin:0;color:#839089;font-size:12px}.more{display:block;margin-top:12px;color:var(--green);font-size:12px;font-weight:700}
+.values{display:grid;grid-template-columns:repeat(4,1fr);margin-top:22px;border-block:1px solid var(--line);padding:27px 0}.value{text-align:center;border-left:1px solid var(--line)}.value:last-child{border-left:0}.value i{font-style:normal;color:var(--green);font-size:25px}.value b{display:block;font-size:12px}.value span{color:#77827c;font-size:11px}
+.head{display:flex;justify-content:space-between;align-items:end;margin-bottom:20px}.head h2{margin:0;font-size:27px}.head p{margin:0;color:var(--muted);font-size:12px}.articles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.article{padding:20px;background:#09100d;border:1px solid var(--line);border-radius:17px}.tag{color:var(--green);font-size:11px}.article h3{font-size:16px;margin:7px 0}.article p{font-size:12px;color:var(--muted);margin:0}.date{font-size:10px;color:#657169;margin-top:12px}
+.cta{padding:30px;border:1px solid #245d36;border-radius:22px;background:linear-gradient(100deg,#07130c,#0e1013);display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h2{margin:0;font-size:24px}.cta p{margin:3px 0;color:var(--muted);font-size:12px}
+footer{border-top:1px solid var(--line);padding:40px 0 22px}.foot{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px}.foot h3{margin:0 0 8px}.foot p,.foot a{font-size:12px;color:var(--muted)}.foot a{display:block;margin:4px 0}.copy{border-top:1px solid var(--line);margin-top:25px;padding-top:15px;color:#58635d;font-size:10px}
+@media(max-width:900px){nav{display:none}.grid{grid-template-columns:repeat(2,1fr)}.values{grid-template-columns:repeat(2,1fr);gap:18px}.value{border:0}.articles{grid-template-columns:1fr}.cta{flex-direction:column;align-items:flex-start}}
+@media(max-width:600px){h1{font-size:48px}.hero{min-height:540px}.grid{grid-template-columns:1fr}.head{display:block}.head p{margin-top:5px}.foot{grid-template-columns:1fr}.tg{font-size:10px;padding:6px 10px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#"><span class="mark">✦</span><span><b>AMO SOHIL</b><small>CANNABIS & MUSHROOM</small></span></a>
+<nav><a href="#home">خانه</a><a href="#cannabis">ماریجوانا</a><a href="#mushroom">مجیک ماشروم</a><a href="#science">اطلاعات علمی</a><a href="#risks">آگاهی و ریسک‌ها</a><a href="#articles">مقالات</a></nav>
+<a class="tg" href="https://t.me/AMO_SOOHIL" target="_blank">✈ @AMO_SOOHIL</a>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="eyebrow">مرجع آموزشی و آگاهی‌رسان</div>
+<h1>AMO SOHIL</h1><h2>دنیای ماریجوانا و مجیک ماشروم را علمی بشناسید</h2>
+<p>اطلاعات درست، تصمیم‌های بهتر — مطالب آموزشی و آگاهی‌رسان درباره علم، اثرات و ریسک‌ها.</p>
+<div class="actions"><a class="btn" href="#science">شروع مطالعه ↓</a><a class="btn alt" href="#articles">مقالات</a></div>
+</div></section>
+
+<section><div class="wrap">
+<div class="grid">
+<article class="card" id="mushroom"><div class="visual purple">🍄</div><div class="body"><h3>مجیک ماشروم</h3><p>آشنایی با سیلوسایبین، پژوهش‌های علمی و ریسک‌های احتمالی.</p><a class="more" href="#articles">مشاهده بیشتر ←</a></div></article>
+<article class="card" id="cannabis"><div class="visual green">🌿</div><div class="body"><h3>ماریجوانا</h3><p>اطلاعات آموزشی درباره کانابیس، ترکیبات و موضوعات پژوهشی.</p><a class="more" href="#articles">مشاهده بیشتر ←</a></div></article>
+<article class="card" id="science"><div class="visual blue">🧠</div><div class="body"><h3>اطلاعات علمی</h3><p>مطالب ساده درباره یافته‌های علمی و محدودیت‌های شواهد.</p><a class="more" href="#articles">مشاهده بیشتر ←</a></div></article>
+<article class="card" id="risks"><div class="visual orange">⚠️</div><div class="body"><h3>آگاهی و ریسک‌ها</h3><p>شناخت ریسک‌ها و اصول کلی کاهش آسیب و تصمیم‌گیری آگاهانه.</p><a class="more" href="#articles">مشاهده بیشتر ←</a></div></article>
+</div>
+<div class="values">
+<div class="value"><i>✓</i><b>اطلاعات معتبر</b><span>بر پایه منابع معتبر</span></div>
+<div class="value"><i>♧</i><b>بیان ساده</b><span>علم قابل فهم</span></div>
+<div class="value"><i>◇</i><b>حریم خصوصی</b><span>احترام به کاربران</span></div>
+<div class="value"><i>♡</i><b>هدف ما</b><span>آگاهی و کاهش آسیب</span></div>
+</div>
+</div></section>
+
+<section id="articles"><div class="wrap">
+<div class="head"><div><h2>آخرین مقالات</h2><p>مطالب جدید و کاربردی برای آگاهی بیشتر</p></div><a class="more" href="#articles">مشاهده همه مقالات ←</a></div>
+<div class="articles">
+<article class="article"><span class="tag">مجیک ماشروم</span><h3>سیلوسایبین چیست؟</h3><p>آشنایی ساده با این ترکیب و موضوعات اصلی پژوهش‌های علمی.</p><div class="date">مقاله آموزشی</div></article>
+<article class="article"><span class="tag">ماریجوانا</span><h3>تأثیر ماریجوانا بر مغز</h3><p>نگاهی کلی به اثرات گزارش‌شده و عوامل مؤثر بر آن.</p><div class="date">مقاله آموزشی</div></article>
+<article class="article"><span class="tag">آگاهی و ریسک‌ها</span><h3>چرا شناخت ریسک‌ها مهم است؟</h3><p>مروری بر اهمیت منابع معتبر و تصمیم‌گیری آگاهانه.</p><div class="date">مقاله آموزشی</div></article>
+</div></div></section>
+
+<section><div class="wrap"><div class="cta"><div><h2>سؤالی دارید؟</h2><p>برای پرسش‌های عمومی درباره محتوای سایت با ادمین در تلگرام در ارتباط باشید.</p></div><a class="btn" href="https://t.me/AMO_SOOHIL" target="_blank">ارتباط با ادمین · @AMO_SOOHIL</a></div></div></section>
+</main>
+
+<footer><div class="wrap"><div class="foot">
+<div><h3>AMO SOHIL</h3><p>وب‌سایت آموزشی و آگاهی‌رسان درباره ماریجوانا و مجیک ماشروم با تمرکز بر اطلاعات علمی و کاهش آسیب.</p></div>
+<div><h3>دسترسی سریع</h3><a href="#cannabis">ماریجوانا</a><a href="#mushroom">مجیک ماشروم</a><a href="#science">اطلاعات علمی</a><a href="#risks">آگاهی و ریسک‌ها</a></div>
+<div><h3>ارتباط</h3><a href="https://t.me/AMO_SOOHIL" target="_blank">@AMO_SOOHIL</a><a href="#articles">مقالات</a></div>
+</div><div class="copy">© 2026 AMO SOHIL — مطالب سایت با هدف آموزش و آگاهی ارائه می‌شوند و جایگزین مشاوره تخصصی نیستند.</div></div></footer>
+</body></html>
